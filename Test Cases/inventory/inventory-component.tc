@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Check all components displayed in inventory page</description>
+   <name>inventory-component</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7145e5fa-a342-4a01-bd18-6f357e2d366b</testCaseGuid>
+</TestCaseEntity>

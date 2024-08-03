@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>locked-out-user</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>30542aa2-52d6-45e1-8fd5-8f4cbacb288b</testCaseGuid>
+</TestCaseEntity>
