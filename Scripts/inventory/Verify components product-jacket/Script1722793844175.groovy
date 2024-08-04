@@ -17,3 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('login/success-login'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementVisible(findTestObject('inventory-page/Jacket Image'))
+
+WebUI.verifyElementVisible(findTestObject('inventory-page/Jacket Title'))
+
+WebUI.verifyElementVisible(findTestObject('inventory-page/Jacket Description'))
+
+WebUI.verifyElementVisible(findTestObject('inventory-page/Jacket Price'))
+
+WebUI.closeBrowser()
+

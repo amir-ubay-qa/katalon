@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>inventory-filter-options</name>
+   <name>Verify components product-backpack</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>0d2016f0-c298-4a3b-bc57-8f8fb3395e94</testCaseGuid>
+   <testCaseGuid>a5085d0a-1235-4748-bd44-87cc3207fff8</testCaseGuid>
 </TestCaseEntity>

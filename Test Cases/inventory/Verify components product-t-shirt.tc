@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify components product-t-shirt</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0bfadf11-2a36-4ba3-9d2d-bdeffef6364a</testCaseGuid>
+</TestCaseEntity>

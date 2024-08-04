@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Check all components displayed in inventory page</description>
-   <name>inventory-component</name>
+   <name>Verify inventory-component are present and visible</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>

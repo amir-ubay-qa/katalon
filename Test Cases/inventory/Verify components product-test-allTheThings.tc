@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify components product-test-allTheThings</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>006b56a9-f1f8-45fd-adc3-fb35c12417b1</testCaseGuid>
+</TestCaseEntity>

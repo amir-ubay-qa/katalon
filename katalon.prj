@@ -11,6 +11,7 @@
    <modifiedEdition>ENTERPRISE</modifiedEdition>
    <modifiedVersion>9.6.0</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>/home/t14/git/katalon/katalon.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
