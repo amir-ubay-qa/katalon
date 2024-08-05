@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify component product page bikelight</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b9871ff0-3b2d-4a8a-8b63-a0f99f9808c9</testCaseGuid>
+</TestCaseEntity>

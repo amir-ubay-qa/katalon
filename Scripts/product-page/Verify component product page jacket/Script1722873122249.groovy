@@ -19,15 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('login/success-login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('inventory-page/Bikelight Image'))
+WebUI.click(findTestObject('inventory-page/Jacket Title'))
 
-WebUI.verifyElementVisible(findTestObject('inventory-page/Bikelight Title'))
+WebUI.verifyElementVisible(findTestObject('single-product-page/jacket/jacket-add-to-cart'))
 
-WebUI.verifyElementVisible(findTestObject('inventory-page/Bikelight Price'))
+WebUI.verifyElementVisible(findTestObject('single-product-page/jacket/jacket-description'))
 
-WebUI.verifyElementVisible(findTestObject('inventory-page/Bikelight Description'))
+WebUI.verifyElementVisible(findTestObject('single-product-page/jacket/jacket-image'))
 
-WebUI.verifyElementVisible(findTestObject('inventory-page/Bikelight Add to Chart Button'))
+WebUI.verifyElementVisible(findTestObject('single-product-page/jacket/jacket-price'))
+
+WebUI.verifyElementVisible(findTestObject('single-product-page/jacket/jacket-title'))
 
 WebUI.closeBrowser()
 

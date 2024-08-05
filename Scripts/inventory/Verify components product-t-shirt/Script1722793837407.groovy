@@ -25,7 +25,9 @@ WebUI.verifyElementVisible(findTestObject('inventory-page/Tshirt Title'))
 
 WebUI.verifyElementVisible(findTestObject('inventory-page/Tshirt Description'))
 
-WebUI.verifyElementVisible(findTestObject('inventory-page/Tshirt Description'))
+WebUI.verifyElementVisible(findTestObject('inventory-page/Tshirt Price'))
+
+WebUI.verifyElementVisible(findTestObject('inventory-page/Tshirt Add to Chart Button'))
 
 WebUI.closeBrowser()
 

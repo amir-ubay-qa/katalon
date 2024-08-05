@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.saucedemo.com/')
 
-WebUI.waitForElementPresent(findTestObject('login-page/Username Input'), 10)
+not_run: WebUI.waitForElementPresent(findTestObject('login-page/Username Input'), 10)
 
 WebUI.setText(findTestObject('Object Repository/login-page/Username Input'), 'standard_user')
 

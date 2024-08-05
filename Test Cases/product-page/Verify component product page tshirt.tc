@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify component product page tshirt</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c747ff0c-a7d9-414b-a42f-b076f3f3eb96</testCaseGuid>
+</TestCaseEntity>
