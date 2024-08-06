@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add to cart backpack</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>808f8306-388d-4bc6-9a4d-e29862f7617a</testCaseGuid>
+</TestCaseEntity>

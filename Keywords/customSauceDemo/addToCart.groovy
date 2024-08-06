@@ -1,3 +1,4 @@
+package customSauceDemo
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -37,7 +38,26 @@ import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webui.exception.WebElementNotFoundException
 
 
-class test {
+class addToCart {
+	/**
+	 * fromInventory
+	 * @param to Katalon test object
+	 */
+	@Keyword
+	def fromInventory(TestObject product) {
+		try {
+			KeywordUtil.logInfo("Start custom keyword addToCart.fromInventory")
+			WebElement target = WebUiBuiltInKeywords.findWebElement(product)
+			target.click()
+			KeywordUtil.logInfo("End custom keyword addToCart.fromInventory")
+			KeywordUtil.markPassed(" success add to cart")
+		} catch (WebElementNotFoundException e) {
+			KeywordUtil.markFailed("Element not found")		
+		} catch (Exception e) {
+			KeywordUtil.markFailed("Fail to click on element")
+		}
+	}
+	
 	/**
 	 * Refresh browser
 	 */

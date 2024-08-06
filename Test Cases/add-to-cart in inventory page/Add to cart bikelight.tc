@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add to cart bikelight</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e08c4e07-66c7-4dc4-a292-29ee686876c0</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test.allTheThings add to cart</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e4bc4c6a-6c14-4a5b-bc95-017dc45d3aec</testCaseGuid>
+</TestCaseEntity>
