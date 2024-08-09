@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify product add to cart from inventory page and removed in product page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1eb3df01-2879-4104-b5b1-ffbd123ee563</testCaseGuid>
+</TestCaseEntity>

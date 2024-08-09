@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify product can be removed in inventory page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a7293b48-66a6-4813-9f1a-e712e73c4348</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify chekcout products are correct from cart</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>08659f38-1a92-4af4-8139-4d4f3a610427</testCaseGuid>
+</TestCaseEntity>

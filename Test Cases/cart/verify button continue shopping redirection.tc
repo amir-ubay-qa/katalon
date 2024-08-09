@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify button continue shopping redirection</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c97ba70e-9bd1-464d-b68c-8591f733b47d</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify checkout page can be opened</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>43fd72ac-eda8-4e32-9b4c-2662808184a8</testCaseGuid>
+</TestCaseEntity>
