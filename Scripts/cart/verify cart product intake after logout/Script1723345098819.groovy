@@ -19,9 +19,49 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('login/success-login'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.scrollToElement(findTestObject('inventory-page/Backpack Add to cart Button'), 0)
+
+WebUI.click(findTestObject('inventory-page/Backpack Add to cart Button'))
+
+WebUI.scrollToElement(findTestObject('inventory-page/Bikelight Add to Chart Button'), 0)
+
+WebUI.click(findTestObject('inventory-page/Bikelight Add to Chart Button'))
+
+WebUI.scrollToElement(findTestObject('inventory-page/Jacket Add to cart Button'), 0)
+
+WebUI.click(findTestObject('inventory-page/Jacket Add to cart Button'))
+
+WebUI.scrollToElement(findTestObject('inventory-page/Onesie Add to cart Button'), 0)
+
+WebUI.click(findTestObject('inventory-page/Onesie Add to cart Button'))
+
+WebUI.scrollToElement(findTestObject('inventory-page/Test.allTheThings Add To Cart'), 0)
+
+WebUI.click(findTestObject('inventory-page/Test.allTheThings Add To Cart'))
+
+WebUI.scrollToElement(findTestObject('inventory-page/Tshirt Add to Chart Button'), 0)
+
+WebUI.click(findTestObject('inventory-page/Tshirt Add to Chart Button'))
+
+WebUI.click(findTestObject('inventory-page/Cart Link Page'))
+
+WebUI.verifyElementText(findTestObject('inventory-page/Cart Badge'), '6')
+
 WebUI.click(findTestObject('Object Repository/inventory-page/Open Menu Button'))
 
 WebUI.click(findTestObject('Object Repository/inventory-page/Logout Button'))
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/login-page/Login Logo'), 0)
+
+WebUI.waitForElementVisible(findTestObject('login-page/Username Input'), 5)
+
+WebUI.setText(findTestObject('login-page/Username Input'), 'standard_user')
+
+WebUI.setText(findTestObject('Object Repository/login-page/Password Input'), 'secret_sauce')
+
+WebUI.click(findTestObject('Object Repository/login-page/Login Button'))
+
+WebUI.verifyElementText(findTestObject('inventory-page/Cart Badge'), '6')
+
+WebUI.closeBrowser()
 

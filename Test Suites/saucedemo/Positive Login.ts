@@ -17,6 +17,36 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/login/success-login</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>851da832-1732-42ad-a080-09870e3df73d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>10689a8a-9e99-4b25-99d5-bdd2f4e53cec</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2dabbfdc-9214-4b1d-a73f-fbc589ad7ffa</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>197a3d1e-4d65-4349-880e-953eb9f084f3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>28b5d952-aae1-48c4-9959-02b299fb0768</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>82defb5a-aaec-4029-84da-f0a1fc931d1f</guid>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>product-image-id</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>5506546d-6d97-4b15-a328-e99c1cab4e9d</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>Sauce+Labs+Backpack item_4_img_link</data>
+   <data>Sauce+Labs+Bike+Light item_0_img_link</data>
+   <data>Sauce+Labs+Bolt+T-Shirt item_1_img_link</data>
+   <data>Sauce+Labs+Fleece+Jacket item_5_img_link</data>
+   <data>Sauce+Labs+Onesie item_2_img_link</data>
+   <data>Test.allTheThings%28%29+T-Shirt+%28Red%29 item_3_img_link</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>title</name>
+      <size>6</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>image-id</name>
+      <size>6</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

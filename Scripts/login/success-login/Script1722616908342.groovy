@@ -19,17 +19,19 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.saucedemo.com/')
+WebUI.navigateToUrl(baseURL)
 
 not_run: WebUI.waitForElementPresent(findTestObject('login-page/Username Input'), 10)
 
-WebUI.setText(findTestObject('Object Repository/login-page/Username Input'), 'standard_user')
+WebUI.setText(findTestObject('login-page/Username Input'), username)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/login-page/Password Input'), 'qcu24s4901FyWDTwXGr6XA==')
+WebUI.setText(findTestObject('Object Repository/login-page/Password Input'), password)
 
 WebUI.click(findTestObject('Object Repository/login-page/Login Button'))
 
 String currentUrl = WebUI.getUrl()
 
-WebUI.verifyMatch(currentUrl, 'https://www.saucedemo.com/inventory.html', false)
+WebUI.verifyMatch(currentUrl, inventoryURL, false)
+
+WebUI.verifyTextPresent(pageTitle, false)
 

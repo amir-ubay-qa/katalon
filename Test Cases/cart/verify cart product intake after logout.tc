@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify cart product intake after logout</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2274b58b-8cea-4b04-81b3-1582bccc7b0d</testCaseGuid>
+</TestCaseEntity>

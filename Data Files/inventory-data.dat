@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>inventory-data</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>24972a90-e0df-42b8-9df6-b5979d0bd9c1</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>Sauce+Labs+Backpack carry.allTheThings%28%29+with+the+sleek%2C+streamlined+Sly+Pack+that+melds+uncompromising+style+with+unequaled+laptop+and+tablet+protection. %2429.99</data>
+   <data>Sauce+Labs+Bike+Light A+red+light+isn%27t+the+desired+state+in+testing+but+it+sure+helps+when+riding+your+bike+at+night.+Water-resistant+with+3+lighting+modes%2C+1+AAA+battery+included. %249.99</data>
+   <data>Sauce+Labs+Bolt+T-Shirt Get+your+testing+superhero+on+with+the+Sauce+Labs+bolt+T-shirt.+From+American+Apparel%2C+100%25+ringspun+combed+cotton%2C+heather+gray+with+red+bolt. %2415.99</data>
+   <data>Sauce+Labs+Fleece+Jacket It%27s+not+every+day+that+you+come+across+a+midweight+quarter-zip+fleece+jacket+capable+of+handling+everything+from+a+relaxing+day+outdoors+to+a+busy+day+at+the+office. %2449.99</data>
+   <data>Sauce+Labs+Onesie Rib+snap+infant+onesie+for+the+junior+automation+engineer+in+development.+Reinforced+3-snap+bottom+closure%2C+two-needle+hemmed+sleeved+and+bottom+won%27t+unravel. %247.99</data>
+   <data>Test.allTheThings%28%29+T-Shirt+%28Red%29 This+classic+Sauce+Labs+t-shirt+is+perfect+to+wear+when+cozying+up+to+your+keyboard+to+automate+a+few+tests.+Super-soft+and+comfy+ringspun+combed+cotton. %2415.99</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>title</name>
+      <size>6</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>desc</name>
+      <size>6</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>price</name>
+      <size>6</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>
