@@ -36,28 +36,31 @@ import com.kms.katalon.core.mobile.helper.MobileElementCommonHelper
 import com.kms.katalon.core.util.KeywordUtil
 
 import com.kms.katalon.core.webui.exception.WebElementNotFoundException
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 
-class addToCart {
+
+class saucelab {
 	/**
-	 * fromInventory
-	 * @param to Katalon test object
+	 * Login sequence
 	 */
 	@Keyword
-	def fromInventory(TestObject product) {
-		try {
-			KeywordUtil.logInfo("Start custom keyword addToCart.fromInventory")
-			WebElement target = WebUiBuiltInKeywords.findWebElement(product)
-			target.click()
-			KeywordUtil.logInfo("End custom keyword addToCart.fromInventory")
-			KeywordUtil.markPassed(" success add to cart")
-		} catch (WebElementNotFoundException e) {
-			KeywordUtil.markFailed("Element not found")
-		} catch (Exception e) {
-			KeywordUtil.markFailed("Fail to click on element")
-		}
+	def login(TestObject inputUserName, TestObject inputPassword, TestObject buttonLogin, String username, String password) {
+		WebUI.setText(inputUserName, username)
+		WebUI.setText(inputPassword, password)
+		WebUI.click(buttonLogin)
 	}
-
+	
+	@Keyword
+	def setUserName(TestObject to, String username) {
+		WebUI.setText(to, username)
+	}
+	@Keyword
+	def setPassword(TestObject to, String password) {
+		WebUI.setText(to, password)
+	}
+	
+	
 	/**
 	 * Refresh browser
 	 */
